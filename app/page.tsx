@@ -32,6 +32,20 @@ const schools = [
 export default function Home() {
   const [list, setList] = useState(schools);
 
+  useEffect(() => {
+    const fetch = async () => {
+ try{
+   await axios.get("http://localhost:3000");
+   console.log("request sent successfully sent");
+   } catch (error) {
+    console.log("hello world");
+    }
+    }
+
+    fetch();
+  }, [])
+  
+
   return (
     <main className="flex min-h-screen flex-col items-center gap-5 bg-[#000D01] w-full">
       <header className='w-full bg-red-500'>
@@ -43,6 +57,7 @@ export default function Home() {
           <h3>SENIOR HIGH SCHOOLS IN GHANA</h3>
           <nav className='flex flex-row justify-between'>
             
+             <Link href="./schools" className='text-[#ED0] font-semibold '>to</Link>
              <Link href="" className='text-[#ED0] font-semibold '>All</Link>
              <Link href="" className='text-[#ED0] font-semibold '>25</Link>
              <Link href="" className='text-[#ED0] font-semibold '>50</Link>

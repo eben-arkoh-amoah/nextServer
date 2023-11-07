@@ -1,0 +1,26 @@
+{
+     "schools" : [
+    { "school": "AMASS", "region": "CENTRAL", "level": "A" },
+    { "school": "SWESCO", "region": "CENTRAL", "level": "A" },
+    { "school": "SWESBU", "region": "CENTRAL", "level": "A" },
+    { "school": "BISECO", "region": "CENTRAL", "level": "B" },
+    { "school": "MFANTSIPEM", "region": "CENTRAL", "level": "A" },
+    { "school": "PRESEC", "region": "ACCRA", "level": "A" },
+    { "school": "BASS", "region": "CENTRAL", "level": "B" },
+    { "school": "NYASTECH", "region": "CENTRAL", "level": "B" },
+    { "school": "ABASS", "region": "CENTRAL", "level": "C" },
+    { "school": "CAPE TECH", "region": "CENTRAL", "level": "B" },
+    { "school": "NSAS", "region": "CENTRAL", "level": "B" },
+    { "school": "PREMPEH", "region": "ASHANTI", "level": "A" },
+    { "school": "KWASTECH", "region": "CENTRAL", "level": "B" },
+    { "school": "ADISCO", "region": "CENTRAL", "level": "A" },
+    { "school": "AUGUSCO", "region": "CENTRAL", "level": "A" },
+    { "school": "ST PETERS", "region": "WESTERN", "level": "A" },
+    { "school": "PORTERS", "region": "WESTERN", "level": "A" },
+    { "school": "SECO", "region": "WESTERN", "level": "B" },
+    { "school": "BOMPEH", "region": "WESTERN", "level": "B" },
+    { "school": "ACHIMOTA", "region": "ACCRA", "level": "A" },
+    { "school": "AJUSEC", "region": "CENTRAL", "level": "C" }
+   
+]
+}
