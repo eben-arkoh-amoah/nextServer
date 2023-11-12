@@ -5,6 +5,7 @@ import head from "./images/head.png";
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import { requests } from '@/lib/axios/interceptors';
 
 const schools = [
   {school: "AMASS", region: "CENTRAL", level : "A"},

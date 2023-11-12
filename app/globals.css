@@ -25,3 +25,38 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+input{
+  border-bottom: 1px solid #08220a;
+}
+
+input[type = "search"]{
+  width: 90%;
+  border-radius: 50px;
+  border: 2px solid #08220a;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  font-weight: 500;
+  font-style: italic;
+}
+
+ul{
+  max-height: 30vh;
+  overflow-y: auto;
+}
+
+li:hover{
+  background: rgba(0, 36, 3, 0.2);
+  border-radius: 5px;
+}
+
+input:focus{
+  border-bottom: 1px solid white;
+}
+
+button:disabled{
+  opacity: 0.5;
+  color: #042707;
+  border: 1px solid rgb(158, 155, 155);
+}
